@@ -1,0 +1,28 @@
+{
+  "name": "fsquery",
+  "description": "Query async fs module calls",
+  "version": "0.2.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "main": "./fsquery.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/AndreasMadsen/fsquery.git"
+  },
+  "keywords": [
+    "file system",
+    "fs",
+    "query",
+    "ulimit"
+  ],
+  "devDependencies": {
+    "tap": "0.3.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.8",
+    "npm": "1"
+  }
+}
